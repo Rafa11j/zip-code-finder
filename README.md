@@ -22,9 +22,21 @@ Antes de rodar o projeto, será necessário executar os seguintes comandos:
 
 - Após executar o comando, crie um arquivo `.env` na raiz do projeto seguindo o exemplo do arquivo `.env.sample`.
 
-- Por fim, basta executar o comando para rodar a aplicação em ambiente de desenvolvimento:
+### Executando aplicação:
+```
+  yarn start:local
+```
+
+### Executando aplicação em ambiente de desenvolvimento:
 ```
   yarn dev
+```
+
+### Build + start:
+```
+  yarn build
+
+  yarn start:prod
 ```
 
 ### Utilizando o serviço:
